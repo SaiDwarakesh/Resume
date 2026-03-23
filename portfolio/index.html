@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Dwarakesh Modadugu | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Sai Dwarakesh Modadugu, Software Engineer specializing in Angular, .NET, and AI-Assisted Development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Sai Dwarakesh Modadugu</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <!-- <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path class="sun" d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                        <path class="sun" d="M12 2v2"></path>
+                        <path class="sun" d="M12 20v2"></path>
+                        <path class="sun" d="m4.93 4.93 1.41 1.41"></path>
+                        <path class="sun" d="m17.66 17.66 1.41 1.41"></path>
+                        <path class="sun" d="M2 12h2"></path>
+                        <path class="sun" d="M20 12h2"></path>
+                        <path class="sun" d="m6.34 17.66-1.41 1.41"></path>
+                        <path class="sun" d="m19.07 4.93-1.41 1.41"></path>
+                        <path class="moon" d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" style="display:none;"></path>
+                    </svg>
+                </button> -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    Open for Opportunities
+                </div>
+                <h1 class="hero-title">Building Digital <br><span class="gradient-text">Experiences</span></h1>
+                <div class="typing-container">
+                    <span class="typing-prefix">> I engineer </span>
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Building Modern Web Experiences with Angular, .NET & Cloud Technologies
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-gradient">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="visual-mockup">
+                    <!-- Code Window -->
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="window-title">developer.config.ts</div>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">export const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Sai Dwarakesh Modadugu'</span>,
+  <span class="property">role</span>: <span class="string">'Full Stack Engineer'</span>,
+  <span class="property">skills</span>: [<span class="string">'Angular'</span>, <span class="string">'.NET 8'</span>, <span class="string">'SQL'</span>],
+  <span class="property">status</span>: <span class="constant">Status.READY_TO_BUILD</span>,
+  <span class="property">passion</span>: <span class="string">'Creating Impact'</span>
+};</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Floating Cards -->
+
+                    <div class="floating-card experience-card">
+                        <div class="card-icon icon-blue">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                            </svg>
+                        </div>
+                        <div class="card-details">
+                            <span class="label">EXPERIENCE</span>
+                            <span class="value">3+ Years</span>
+                        </div>
+                    </div>
+
+                    <!-- Tech Island (Taskbar snippet) -->
+                    <div class="tech-island">
+                        <div class="island-icons">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg"
+                                alt="Angular" width="16">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg"
+                                alt=".NET" width="16">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                                alt="Node" width="16">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg"
+                                alt="Chrome" width="16">
+                        </div>
+                        <div class="island-divider"></div>
+                        <div class="island-status">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M6.5 6.5 17.5 17.5M17.5 6.5 6.5 17.5" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="container about-me">
+        <div class="about-grid">
+            <div class="about-left">
+                <span class="about-badge">ABOUT ME</span>
+                <h2 class="about-title">Engineering Scalable <br><span class="gradient-text">Solutions</span></h2>
+                <p class="about-text">
+                    I am a <strong>Full Stack Developer</strong> at <strong>Snovasys Solutions</strong>, passionate
+                    about building high-performance web applications.
+                    My expertise spans <strong>Microfrontends,
+                        Microservices</strong>, <strong>AI-Assisted Development,
+                        Secure Enterprise Systems</strong>, and <strong>Interactive Reporting Dashboards</strong>.
+                </p>
+                <p class="about-subtext">
+                    Specializing in <strong>Angular</strong> and <strong>.NET 8</strong>, I focus on writing clean,
+                    maintainable code that drives business value. Whether optimizing SQL queries or architecting complex
+                    frontend states, I deliver robust solutions.
+                </p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🧩</div>
+                        <div class="feature-content">
+                            <h4>Problem Solver</h4>
+                            <p>Turning complex requirements into logical, efficient code.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-content">
+                            <h4>Performance</h4>
+                            <p>Optimizing load times and API response latency.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏗️</div>
+                        <div class="feature-content">
+                            <h4>Clean Arch</h4>
+                            <p>Advocate for SOLID principles and modular design.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🤝</div>
+                        <div class="feature-content">
+                            <h4>Team Player</h4>
+                            <p>Collaborative mindset with strong communication.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right">
+                <div class="profile-card glass-panel">
+                    <div class="profile-header">
+                        <div class="profile-avatar">👨‍💻</div>
+                        <div class="profile-info">
+                            <h3>Sai Dwarakesh Modadugu</h3>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Andhra Pradesh, India</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Experience</span>
+                            <span class="detail-value">3+ Years</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Status</span>
+                            <span class="detail-status">Open for Opportunities</span>
+                        </div>
+                    </div>
+                    <div class="profile-skills">
+                        <span class="skill-tag">Angular 18</span>
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">MS SQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">AI Tools</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Cryptography</span>
+                        <span class="skill-tag">Steganography</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="container ">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-panel project-card">
+                <h3>Backlinking Automation Tool</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    Developed a high-performance automation tool to streamline the link-building SEO process. Utilizing
+                    AI-assisted coding platforms like Cursor and Antigravity, the system identifies backlink
+                    opportunities and automates link creation. This reduces manual SEO effort significantly, improves
+                    website visibility for clients, and supports scalable search engine ranking strategies.
+                </div>
+                <div class="project-tags">
+                    <span class="tag">AI-Assisted</span>
+                    <span class="tag">SEO Automation</span>
+                    <span class="tag">Cursor</span>
+                    <span class="tag">Scalable Design</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>Keycloak Secure Authentication</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    Implemented enterprise-level security by integrating Keycloak into Angular applications. Features
+                    include Single Sign-On (SSO) and robust token-based authentication. This implementation ensures
+                    seamless user session management across multiple proprietary modules while maintaining high security
+                    standards and user-friendly login/logout flows.
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Angular</span>
+                    <span class="tag">Keycloak</span>
+                    <span class="tag">SSO</span>
+                    <span class="tag">Token-Based Auth</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>Worklog Report & Heat Maps</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    Designed and built an interactive tracking system for employee productivity. The system integrates
+                    task timers for accurate work-hour analysis and features Heat Map visualizations to track user
+                    interactions and system usage trends. I utilized real-time data tracking for mouse movements and
+                    clicks, providing management with deep insights into work patterns and engagement trends.
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Data Visualization</span>
+                    <span class="tag">Heat Maps</span>
+                    <span class="tag">Angular</span>
+                    <span class="tag">.NET Core</span>
+                </div>
+            </div>
+
+
+            <div class="glass-panel project-card">
+                <h3>Secured Delivery using Steganography</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    A security-focused project built with Django that hides confidential data within sensitive
+                    multimedia files (images). This approach moves beyond traditional encryption by making the existence
+                    of the secret data imperceptible, thereby minimizing detection risks during transmission in
+                    high-stakes digital environments.
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Django</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Cryptography</span>
+                    <span class="tag">Steganography</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>Demo Site: Module Implementation</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    <ul class="module-list">
+                        <li class="module-item"><strong>Leave Management</strong> Streamlined application, approval, and
+                            tracking.</li>
+                        <li class="module-item"><strong>Google Maps</strong> Real-time navigation, custom markers, and
+                            location tracking.</li>
+                        <li class="module-item"><strong>Hybrid Work</strong> Seamless scheduling and collaboration for
+                            remote teams.</li>
+                        <li class="module-item"><strong>Reporting System</strong> Deep insights into Time, Attendance,
+                            and Performance.</li>
+                        <li class="module-item"><strong>Analytics Dashboard</strong> Real-time metrics for Productivity
+                            and balance.</li>
+                        <li class="module-item"><strong>Time Claims</strong> Automated tracking and approval for
+                            employee claims.</li>
+                        <li class="module-item"><strong>Communicator</strong> Real-time messaging with team
+                            collaboration and pinned features.</li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Angular</span>
+                    <span class="tag">Google Maps API</span>
+                    <span class="tag">Real-time Chat</span>
+                    <span class="tag">Data Analytics</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>CGPA Calculator</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    Developed a robust Java-based CGPA calculator to efficiently compute and manage students' cumulative
+                    grade point averages. The system ensures high accuracy in grade calculations, supports multiple
+                    grading scales, and provides a user-friendly interface for seamless data entry and instant result
+                    retrieval.
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Data Management</span>
+                    <span class="tag">Education Tech</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>UI Kit Implementation</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    Developed and integrated reusable UI components to enhance user experience, maintain design
+                    consistency, and improve development efficiency.
+                    <ul class="module-list" style="margin-top: 1rem;">
+                        <li class="module-item"><strong>Range Date Picker</strong> Custom date selection component.</li>
+                        <li class="module-item"><strong>Smart Dropdowns</strong> Single and Multi-select dropdown
+                            systems.</li>
+                        <li class="module-item"><strong>KPI Cards</strong> Visual data performance indicators.</li>
+                        <li class="module-item"><strong>Vertical Tabs</strong> Organized layout navigation components.
+                        </li>
+                        <li class="module-item"><strong>Smart Slider</strong> Interactive range and value selection.
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Angular</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Reusable Components</span>
+                    <span class="tag">Design System</span>
+                </div>
+            </div>
+
+            <div class="glass-panel project-card">
+                <h3>Qoli.ai Platform</h3>
+                <div class="project-details-hidden" style="display:none;">
+                    <ul class="module-list">
+                        <li class="module-item"><strong>Call History</strong> Smart logging and filtering system for
+                            call analysis.</li>
+                        <li class="module-item"><strong>Contacts Management</strong> Real-time synced contact system
+                            with deep integration.</li>
+                        <li class="module-item"><strong>Photo Management</strong> Optimized storage and organization for
+                            project media.</li>
+                        <li class="module-item"><strong>Secure Messaging</strong> Text system with advanced keyword
+                            categorization.</li>
+                        <li class="module-item"><strong>Keyword Tracking</strong> Intelligent real-time detection and
+                            analytics across all media.</li>
+                    </ul>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Angular</span>
+                    <span class="tag">.NET Core</span>
+                    <span class="tag">AI Analytics</span>
+                    <span class="tag">Security</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="glass-panel skill-card">
+                <span class="skill-category">Languages</span>
+                <p class="skill-list">C, Python, JavaScript, Java, C#</p>
+            </div>
+            <div class="glass-panel skill-card">
+                <span class="skill-category">Frontend</span>
+                <p class="skill-list">Angular, HTML, CSS, Bootstrap, Tailwind CSS</p>
+            </div>
+            <div class="glass-panel skill-card">
+                <span class="skill-category">Backend</span>
+                <p class="skill-list">.NET Core, Django, Servlets, JSP</p>
+            </div>
+            <div class="glass-panel skill-card">
+                <span class="skill-category">Database</span>
+                <p class="skill-list">MS SQL, MySQL</p>
+            </div>
+            <div class="glass-panel skill-card">
+                <span class="skill-category">AI Tools</span>
+                <p class="skill-list">Anti-Gravity, Cursor, ChatGPT</p>
+            </div>
+            <div class="glass-panel skill-card">
+                <span class="skill-category">Specialized</span>
+                <p class="skill-list">Cryptography, Steganography, Data Structures</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience" class="container">
+        <h2 class="section-title">Industry Experience</h2>
+        <div class="glass-panel" style="padding: 3rem; margin-top: 2rem;">
+            <div
+                style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;" class="gradient-text">Software Engineer</h3>
+                    <p style="color: var(--text-main); font-weight: 600; font-size: 1.1rem;">Snovasys Software Solution
+                        Ltd.</p>
+                </div>
+                <div
+                    style="background: rgba(139, 92, 246, 0.1); padding: 0.5rem 1.25rem; border-radius: 100px; color: var(--secondary-color); font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(139, 92, 246, 0.2);">
+                    May 2023 – Present
+                </div>
+            </div>
+            <div style="max-width: 900px;">
+                <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 2rem; font-size: 1.05rem;">
+                    Focused on architecting and delivering high-performance enterprise-grade applications. I specialize
+                    in
+                    building scalable, modular systems using <strong>Angular</strong> and <strong>.NET Core</strong>,
+                    with a
+                    strong emphasis on productivity tools, secure authentication, and AI-assisted automation.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                    <div style="border-left: 3px solid var(--secondary-color); padding-left: 1.5rem;">
+                        <h4 style="color: var(--text-main); margin-bottom: 0.5rem;">Core Responsibilities</h4>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">Developing robust
+                            backend
+                            logic and complex frontend architectures with specialized UI kits.</p>
+                    </div>
+                    <div style="border-left: 3px solid var(--accent-color); padding-left: 1.5rem;">
+                        <h4 style="color: var(--text-main); margin-bottom: 0.5rem;">Key Innovations</h4>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">Implementing
+                            AI-assisted
+                            automation and deep data visualization using real-time heat maps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="glass-panel" style="overflow-x: auto;">
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech</td>
+                        <td>Bapatla Engineering College</td>
+                        <td>2023</td>
+                        <td>9.41</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Sri Chaitanya Junior College</td>
+                        <td>2019</td>
+                        <td>9.53</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Little Angels Public School</td>
+                        <td>2017</td>
+                        <td>10.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <section id="achievements" class="container">
+        <h2 class="section-title">Certifications & Awards</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            <div class="glass-panel" style="padding: 2rem;">
+                <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">NPTEL Certifications</h4>
+                <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.8;">• Python For Data Science<br>•
+                    Cloud Computing
+                </p>
+            </div>
+            <div class="glass-panel" style="padding: 2rem;">
+                <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">Achievements</h4>
+                <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.8;">• 2nd Place: Technical Quiz
+                    (BEC)<br>• 1st Place:
+                    Ramakrishna Seva Samiti Quiz</p>
+            </div>
+            <div class="glass-panel" style="padding: 2rem;">
+                <h4 style="color: var(--secondary-color); margin-bottom: 1rem;">Programming</h4>
+                <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.8;">• Microsoft Certification in
+                    Python<br>• SQL &
+                    Angular (HackerRank)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-hero-panel glass-panel">
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-muted); font-size: 1.1rem;">Enthusiastic about
+                collaborating on innovative
+                projects.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>saidwarakesh@Zohomail.in</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p>+91 9347898554</p>
+                </div>
+            </div>
+            <a href="mailto:saidwarakesh@Zohomail.in" class="btn btn-gradient" style="margin-top: 2rem;">Send
+                Message</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sai Dwarakesh Modadugu.</p>
+        </div>
+    </footer>
+
+    <!-- Side Window (Drawer) -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="drawer" id="drawer">
+        <button class="drawer-close" id="drawer-close">&times;</button>
+        <div class="drawer-content" id="drawer-content">
+            <!-- Content filled by script.js -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
